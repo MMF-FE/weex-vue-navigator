@@ -29,7 +29,7 @@ export default class Navigator {
 
     static bootstrap() {
         if (!this.$router) {
-            throw new Error('Please use Vue.weexNavigator.regRouter(router)')
+            throw new Error('Please use bindRouter(router)')
         }
         if (this.is.web) return
 
