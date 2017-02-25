@@ -18,7 +18,6 @@ import Router from 'vue-router'
 import weexNavigator from 'weex-vue-navigator'
 import App from '{YouAppPath}.vue'
 
-Vue.use(weexVueFixed)
 Vue.use(Router)
 
 let router = new Router({
@@ -55,7 +54,7 @@ export default {
 ```
 
 ### `Vue.prototype.$goTo (url:string, isSelf:boolean = false)`
-    - url: vue route url
-    - isSelf: open on self view (use tab change)
+- url: vue route url
+- isSelf: open on self view (use tab change)
 
 ### `Vue.prototype.$back ()`
