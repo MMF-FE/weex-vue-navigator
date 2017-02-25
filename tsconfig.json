@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "types": ["vue-typescript-import-dts"],
+        "declaration": true,
+        "outDir": "types",
+        "lib": [
+            "dom",
+            "es2015.promise",
+            "es5"
+        ]
+    },
+    "filesGlob": [
+        "./**/*.ts"
+    ],
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
