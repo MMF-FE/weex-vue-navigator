@@ -64,8 +64,6 @@ export default class Navigator {
         if ((this.is.web || isSelfRoute) && this.$router) {
             this.$router.back()
         } else {
-            const navigator = weex.requireModule('navigator')
-
             navigator.pop({
                 animated: "true"
             }, () => { })
